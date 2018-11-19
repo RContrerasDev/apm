@@ -5,7 +5,6 @@ import { ProductService } from "./product.service";
 // Next we decorate the class with a Component decorator, it is what makes this class a component.
 // The decorator will hold the properties and also defines the metadata.
 @Component({
-    selector: 'pm-products',
     templateUrl: './product-list.component.html',
     styleUrls: ['./product-list.component.css']
 })
